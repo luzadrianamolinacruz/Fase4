@@ -10,7 +10,8 @@ def crear_logger() -> logging.Logger:
     log = logging.getLogger("software_fj")
     if not log.handlers:
         log.setLevel(logging.INFO)
-        archivo = logging.FileHandler(RUTA_LOG, mode="w", encoding="utf-8")
+        #Corrección para evitar la sobre escrritura en cada consulta del log. antes estaba con w y ahora tiene a (con esto no sobreeescribimoos sino que añadimos - como un append).
+        archivo = logging.FileHandler(RUTA_LOG, mode="a", encoding="utf-8")
         archivo.setFormatter(
             logging.Formatter("%(asctime)s | %(levelname)-7s | %(message)s")
         )
