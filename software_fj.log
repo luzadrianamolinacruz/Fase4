@@ -1,0 +1,240 @@
+2026-11-16 17:34:55,183 | INFO    | Cliente registrado: Cliente #1: Ana Torres (doc. 1012345678, ana@correo.com)
+2026-11-16 17:34:55,183 | INFO    | Operación 1 finalizada
+2026-11-16 17:34:55,183 | INFO    | Cliente registrado: Cliente #2: Luis Pérez (doc. 79876543, luis@correo.com)
+2026-11-16 17:34:55,183 | INFO    | Operación 2 finalizada
+2026-11-16 17:34:55,183 | ERROR   | Operación 3 - Registrar cliente con correo inválido: Correo inválido: 'correo-malo'
+2026-11-16 17:34:55,183 | INFO    | Operación 3 finalizada
+2026-11-16 17:34:55,183 | ERROR   | Operación 4 - Registrar cliente con documento repetido: Ya existe un cliente con documento 1012345678.
+2026-11-16 17:34:55,183 | INFO    | Operación 4 finalizada
+2026-11-16 17:34:55,183 | INFO    | Servicio creado: Sala Ejecutiva (disponible, $50,000/hora), sala para 10 personas
+2026-11-16 17:34:55,183 | INFO    | Operación 5 finalizada
+2026-11-16 17:34:55,183 | INFO    | Servicio creado: Portátil Pro (disponible, $12,000/hora), alquiler de Portátil con seguro del 5%
+2026-11-16 17:34:55,183 | INFO    | Operación 6 finalizada
+2026-11-16 17:34:55,183 | INFO    | Servicio creado: Asesoría en Python (disponible, $80,000/hora), asesoría en Python
+2026-11-16 17:34:55,183 | INFO    | Operación 7 finalizada
+2026-11-16 17:34:55,183 | ERROR   | Operación 8 - Crear servicio con tarifa inválida: La tarifa por hora debe ser un número positivo.
+2026-11-16 17:34:55,184 | INFO    | Operación 8 finalizada
+2026-11-16 17:34:55,184 | INFO    | Reserva creada: Reserva #9 [pendiente] Ana Torres -> Sala Ejecutiva, 3 h
+2026-11-16 17:34:55,184 | INFO    | Operación 9 finalizada
+2026-11-16 17:34:55,184 | INFO    | Reserva #9 confirmada para Ana Torres
+2026-11-16 17:34:55,184 | INFO    | Reserva #9 procesada, total $178,500.00
+2026-11-16 17:34:55,184 | INFO    | Intento de procesar la reserva #9 (estado final: procesada)
+2026-11-16 17:34:55,184 | INFO    | Operación 10 finalizada
+2026-11-16 17:34:55,184 | ERROR   | Operación 11 - Reserva fallida: horas fuera de rango en la sala: Una sala se reserva entre 1 y 8 horas.
+2026-11-16 17:34:55,184 | INFO    | Operación 11 finalizada
+2026-11-16 17:34:55,184 | ERROR   | Operación 12 - Reserva fallida: equipo no disponible: El servicio 'Portátil Pro' no está disponible.
+2026-11-16 17:34:55,184 | INFO    | Operación 12 finalizada
+2026-11-16 17:34:55,184 | INFO    | Reserva creada: Reserva #10 [pendiente] Luis Pérez -> Asesoría en Python, 2 h
+2026-11-16 17:34:55,184 | INFO    | Operación 13 finalizada
+2026-11-16 17:34:55,184 | INFO    | Intento de procesar la reserva #10 (estado final: pendiente)
+2026-11-16 17:34:55,184 | ERROR   | Operación 14 - Procesar reserva sin confirmar (operación no permitida): Solo se procesan reservas confirmadas (estado: pendiente).
+2026-11-16 17:34:55,184 | INFO    | Operación 14 finalizada
+2026-11-16 17:34:55,184 | INFO    | Reserva #10 confirmada para Luis Pérez
+2026-11-16 17:34:55,184 | INFO    | Reserva #10 procesada, total $222,768.00
+2026-11-16 17:34:55,184 | INFO    | Intento de procesar la reserva #10 (estado final: procesada)
+2026-11-16 17:34:55,184 | INFO    | Operación 15 finalizada
+2026-11-16 17:34:55,184 | INFO    | Reserva creada: Reserva #11 [pendiente] Ana Torres -> Portátil Pro, 10 h
+2026-11-16 17:34:55,184 | INFO    | Operación 16 finalizada
+2026-11-16 17:34:55,184 | INFO    | Reserva #11 cancelada
+2026-11-16 17:34:55,184 | INFO    | Operación 17 finalizada
+2026-11-16 17:34:55,184 | ERROR   | Operación 18 - Cancelar de nuevo (debe fallar): No se puede cancelar una reserva cancelada.
+2026-11-16 17:34:55,184 | INFO    | Operación 18 finalizada
+2026-11-16 17:34:55,184 | INFO    | Reserva creada: Reserva #12 [pendiente] Ana Torres -> Asesoría en Python, 1 h
+2026-11-16 17:34:55,184 | INFO    | Reserva #12 confirmada para Ana Torres
+2026-11-16 17:34:55,184 | INFO    | Intento de procesar la reserva #12 (estado final: confirmada)
+2026-11-16 17:34:55,184 | ERROR   | Operación 19 - Procesar con descuento inválido (error encadenado): No se pudo calcular el costo de la reserva #12 (causa: Descuento fuera de rango: 2)
+2026-11-16 17:34:55,184 | INFO    | Operación 19 finalizada
+2026-11-16 17:34:55,184 | ERROR   | Operación 20 - Reserva con cliente nulo (parámetro faltante): La reserva necesita un cliente válido.
+2026-11-16 17:34:55,184 | INFO    | Operación 20 finalizada
+2026-11-16 17:57:06,391 | INFO    | Cliente registrado: Cliente #1: Ana Torres (doc. 1012345678, ana@correo.com)
+2026-11-16 17:57:06,391 | INFO    | Operación 1 finalizada
+2026-11-16 17:57:06,391 | INFO    | Cliente registrado: Cliente #2: Luis Pérez (doc. 79876543, luis@correo.com)
+2026-11-16 17:57:06,391 | INFO    | Operación 2 finalizada
+2026-11-16 17:57:06,392 | ERROR   | Operación 3 - Registrar cliente con correo inválido: Correo inválido: 'correo-malo'
+2026-11-16 17:57:06,392 | INFO    | Operación 3 finalizada
+2026-11-16 17:57:06,392 | ERROR   | Operación 4 - Registrar cliente con documento repetido: Ya existe un cliente con documento 1012345678.
+2026-11-16 17:57:06,392 | INFO    | Operación 4 finalizada
+2026-11-16 17:57:06,392 | INFO    | Servicio creado: Sala Ejecutiva (disponible, $50,000/hora), sala para 10 personas
+2026-11-16 17:57:06,392 | INFO    | Operación 5 finalizada
+2026-11-16 17:57:06,392 | INFO    | Servicio creado: Portátil Pro (disponible, $12,000/hora), alquiler de Portátil con seguro del 5%
+2026-11-16 17:57:06,392 | INFO    | Operación 6 finalizada
+2026-11-16 17:57:06,392 | INFO    | Servicio creado: Asesoría en Python (disponible, $80,000/hora), asesoría en Python
+2026-11-16 17:57:06,392 | INFO    | Operación 7 finalizada
+2026-11-16 17:57:06,392 | ERROR   | Operación 8 - Crear servicio con tarifa inválida: La tarifa por hora debe ser un número positivo.
+2026-11-16 17:57:06,392 | INFO    | Operación 8 finalizada
+2026-11-16 17:57:06,392 | INFO    | Reserva creada: Reserva #9 [pendiente] Ana Torres -> Sala Ejecutiva, 3 h
+2026-11-16 17:57:06,392 | INFO    | Operación 9 finalizada
+2026-11-16 17:57:06,392 | INFO    | Reserva #9 confirmada para Ana Torres
+2026-11-16 17:57:06,392 | INFO    | Reserva #9 procesada, total $178,500.00
+2026-11-16 17:57:06,392 | INFO    | Intento de procesar la reserva #9 (estado final: procesada)
+2026-11-16 17:57:06,392 | INFO    | Operación 10 finalizada
+2026-11-16 17:57:06,392 | ERROR   | Operación 11 - Reserva fallida: horas fuera de rango en la sala: Una sala se reserva entre 1 y 8 horas.
+2026-11-16 17:57:06,392 | INFO    | Operación 11 finalizada
+2026-11-16 17:57:06,392 | ERROR   | Operación 12 - Reserva fallida: equipo no disponible: El servicio 'Portátil Pro' no está disponible.
+2026-11-16 17:57:06,392 | INFO    | Operación 12 finalizada
+2026-11-16 17:57:06,392 | INFO    | Reserva creada: Reserva #10 [pendiente] Luis Pérez -> Asesoría en Python, 2 h
+2026-11-16 17:57:06,392 | INFO    | Operación 13 finalizada
+2026-11-16 17:57:06,392 | INFO    | Intento de procesar la reserva #10 (estado final: pendiente)
+2026-11-16 17:57:06,392 | ERROR   | Operación 14 - Procesar reserva sin confirmar (operación no permitida): Solo se procesan reservas confirmadas (estado: pendiente).
+2026-11-16 17:57:06,392 | INFO    | Operación 14 finalizada
+2026-11-16 17:57:06,392 | INFO    | Reserva #10 confirmada para Luis Pérez
+2026-11-16 17:57:06,392 | INFO    | Reserva #10 procesada, total $222,768.00
+2026-11-16 17:57:06,392 | INFO    | Intento de procesar la reserva #10 (estado final: procesada)
+2026-11-16 17:57:06,392 | INFO    | Operación 15 finalizada
+2026-11-16 17:57:06,392 | INFO    | Reserva creada: Reserva #11 [pendiente] Ana Torres -> Portátil Pro, 10 h
+2026-11-16 17:57:06,392 | INFO    | Operación 16 finalizada
+2026-11-16 17:57:06,392 | INFO    | Reserva #11 cancelada
+2026-11-16 17:57:06,392 | INFO    | Operación 17 finalizada
+2026-11-16 17:57:06,392 | ERROR   | Operación 18 - Cancelar de nuevo (debe fallar): No se puede cancelar una reserva cancelada.
+2026-11-16 17:57:06,392 | INFO    | Operación 18 finalizada
+2026-11-16 17:57:06,392 | INFO    | Reserva creada: Reserva #12 [pendiente] Ana Torres -> Asesoría en Python, 1 h
+2026-11-16 17:57:06,392 | INFO    | Reserva #12 confirmada para Ana Torres
+2026-11-16 17:57:06,392 | INFO    | Intento de procesar la reserva #12 (estado final: confirmada)
+2026-11-16 17:57:06,392 | ERROR   | Operación 19 - Procesar con descuento inválido (error encadenado): No se pudo calcular el costo de la reserva #12 (causa: Descuento fuera de rango: 2)
+2026-11-16 17:57:06,392 | INFO    | Operación 19 finalizada
+2026-11-16 17:57:06,392 | ERROR   | Operación 20 - Reserva con cliente nulo (parámetro faltante): La reserva necesita un cliente válido.
+2026-11-16 17:57:06,393 | INFO    | Operación 20 finalizada
+2026-11-16 18:04:10,644 | INFO    | Cliente registrado: Cliente #1: Ana Torres (doc. 1012345678, ana@correo.com)
+2026-11-16 18:04:10,644 | INFO    | Operación 1 finalizada
+2026-11-16 18:04:10,644 | INFO    | Cliente registrado: Cliente #2: Luis Pérez (doc. 79876543, luis@correo.com)
+2026-11-16 18:04:10,644 | INFO    | Operación 2 finalizada
+2026-11-16 18:04:10,644 | ERROR   | Operación 3 - Registrar cliente con correo inválido: Correo inválido: 'correo-malo'
+2026-11-16 18:04:10,644 | INFO    | Operación 3 finalizada
+2026-11-16 18:04:10,644 | ERROR   | Operación 4 - Registrar cliente con documento repetido: Ya existe un cliente con documento 1012345678.
+2026-11-16 18:04:10,644 | INFO    | Operación 4 finalizada
+2026-11-16 18:04:10,644 | INFO    | Servicio creado: Sala Ejecutiva (disponible, $50,000/hora), sala para 10 personas
+2026-11-16 18:04:10,644 | INFO    | Operación 5 finalizada
+2026-11-16 18:04:10,644 | INFO    | Servicio creado: Portátil Pro (disponible, $12,000/hora), alquiler de Portátil con seguro del 5%
+2026-11-16 18:04:10,644 | INFO    | Operación 6 finalizada
+2026-11-16 18:04:10,644 | INFO    | Servicio creado: Asesoría en Python (disponible, $80,000/hora), asesoría en Python
+2026-11-16 18:04:10,644 | INFO    | Operación 7 finalizada
+2026-11-16 18:04:10,644 | ERROR   | Operación 8 - Crear servicio con tarifa inválida: La tarifa por hora debe ser un número positivo.
+2026-11-16 18:04:10,644 | INFO    | Operación 8 finalizada
+2026-11-16 18:04:10,644 | INFO    | Reserva creada: Reserva #8 [pendiente] Ana Torres -> Sala Ejecutiva, 3 h
+2026-11-16 18:04:10,644 | INFO    | Operación 9 finalizada
+2026-11-16 18:04:10,644 | INFO    | Reserva #8 confirmada para Ana Torres
+2026-11-16 18:04:10,644 | INFO    | Reserva #8 procesada, total $178,500.00
+2026-11-16 18:04:10,644 | INFO    | Intento de procesar la reserva #8 (estado final: procesada)
+2026-11-16 18:04:10,644 | INFO    | Operación 10 finalizada
+2026-11-16 18:04:10,644 | ERROR   | Operación 11 - Reserva fallida: horas fuera de rango en la sala: Una sala se reserva entre 1 y 8 horas.
+2026-11-16 18:04:10,644 | INFO    | Operación 11 finalizada
+2026-11-16 18:04:10,644 | ERROR   | Operación 12 - Reserva fallida: equipo no disponible: El servicio 'Portátil Pro' no está disponible.
+2026-11-16 18:04:10,644 | INFO    | Operación 12 finalizada
+2026-11-16 18:04:10,644 | INFO    | Reserva creada: Reserva #9 [pendiente] Luis Pérez -> Asesoría en Python, 2 h
+2026-11-16 18:04:10,644 | INFO    | Operación 13 finalizada
+2026-11-16 18:04:10,644 | INFO    | Intento de procesar la reserva #9 (estado final: pendiente)
+2026-11-16 18:04:10,644 | ERROR   | Operación 14 - Procesar reserva sin confirmar (operación no permitida): Solo se procesan reservas confirmadas (estado: pendiente).
+2026-11-16 18:04:10,644 | INFO    | Operación 14 finalizada
+2026-11-16 18:04:10,644 | INFO    | Reserva #9 confirmada para Luis Pérez
+2026-11-16 18:04:10,644 | INFO    | Reserva #9 procesada, total $222,768.00
+2026-11-16 18:04:10,644 | INFO    | Intento de procesar la reserva #9 (estado final: procesada)
+2026-11-16 18:04:10,644 | INFO    | Operación 15 finalizada
+2026-11-16 18:04:10,644 | INFO    | Reserva creada: Reserva #10 [pendiente] Ana Torres -> Portátil Pro, 10 h
+2026-11-16 18:04:10,644 | INFO    | Operación 16 finalizada
+2026-11-16 18:04:10,644 | INFO    | Reserva #10 cancelada
+2026-11-16 18:04:10,644 | INFO    | Operación 17 finalizada
+2026-11-16 18:04:10,644 | ERROR   | Operación 18 - Cancelar de nuevo (debe fallar): No se puede cancelar una reserva cancelada.
+2026-11-16 18:04:10,644 | INFO    | Operación 18 finalizada
+2026-11-16 18:04:10,644 | INFO    | Reserva creada: Reserva #11 [pendiente] Ana Torres -> Asesoría en Python, 1 h
+2026-11-16 18:04:10,644 | INFO    | Reserva #11 confirmada para Ana Torres
+2026-11-16 18:04:10,644 | INFO    | Intento de procesar la reserva #11 (estado final: confirmada)
+2026-11-16 18:04:10,644 | ERROR   | Operación 19 - Procesar con descuento inválido (error encadenado): No se pudo calcular el costo de la reserva #11 (causa: Descuento fuera de rango: 2)
+2026-11-16 18:04:10,644 | INFO    | Operación 19 finalizada
+2026-11-16 18:04:10,644 | ERROR   | Operación 20 - Reserva con cliente nulo (parámetro faltante): La reserva necesita un cliente válido.
+2026-11-16 18:04:10,644 | INFO    | Operación 20 finalizada
+2026-11-16 19:51:40,475 | INFO    | Cliente registrado: Cliente #1: Ana Torres (doc. 1012345678, ana@correo.com)
+2026-11-16 19:51:40,475 | INFO    | Operación 1 finalizada
+2026-11-16 19:51:40,475 | INFO    | Cliente registrado: Cliente #2: Luis Pérez (doc. 79876543, luis@correo.com)
+2026-11-16 19:51:40,475 | INFO    | Operación 2 finalizada
+2026-11-16 19:51:40,476 | ERROR   | Operación 3 - Registrar cliente con correo inválido: Correo inválido: 'correo-malo'
+2026-11-16 19:51:40,476 | INFO    | Operación 3 finalizada
+2026-11-16 19:51:40,476 | ERROR   | Operación 4 - Registrar cliente con documento repetido: Ya existe un cliente con documento 1012345678.
+2026-11-16 19:51:40,476 | INFO    | Operación 4 finalizada
+2026-11-16 19:51:40,476 | INFO    | Servicio creado: Sala Ejecutiva (disponible, $50,000/hora), sala para 10 personas
+2026-11-16 19:51:40,476 | INFO    | Operación 5 finalizada
+2026-11-16 19:51:40,476 | INFO    | Servicio creado: Portátil Pro (disponible, $12,000/hora), alquiler de Portátil con seguro del 5%
+2026-11-16 19:51:40,476 | INFO    | Operación 6 finalizada
+2026-11-16 19:51:40,476 | INFO    | Servicio creado: Asesoría en Python (disponible, $80,000/hora), asesoría en Python
+2026-11-16 19:51:40,476 | INFO    | Operación 7 finalizada
+2026-11-16 19:51:40,476 | ERROR   | Operación 8 - Crear servicio con tarifa inválida: La tarifa por hora debe ser un número positivo.
+2026-11-16 19:51:40,476 | INFO    | Operación 8 finalizada
+2026-11-16 19:51:40,476 | INFO    | Reserva creada: Reserva #9 [pendiente] Ana Torres -> Sala Ejecutiva, 3 h
+2026-11-16 19:51:40,476 | INFO    | Operación 9 finalizada
+2026-11-16 19:51:40,476 | INFO    | Reserva #9 confirmada para Ana Torres
+2026-11-16 19:51:40,476 | INFO    | Reserva #9 procesada, total $178,500.00
+2026-11-16 19:51:40,476 | INFO    | Intento de procesar la reserva #9 (estado final: procesada)
+2026-11-16 19:51:40,476 | INFO    | Operación 10 finalizada
+2026-11-16 19:51:40,476 | ERROR   | Operación 11 - Reserva fallida: horas fuera de rango en la sala: Una sala se reserva entre 1 y 8 horas.
+2026-11-16 19:51:40,476 | INFO    | Operación 11 finalizada
+2026-11-16 19:51:40,476 | ERROR   | Operación 12 - Reserva fallida: equipo no disponible: El servicio 'Portátil Pro' no está disponible.
+2026-11-16 19:51:40,476 | INFO    | Operación 12 finalizada
+2026-11-16 19:51:40,476 | INFO    | Reserva creada: Reserva #10 [pendiente] Luis Pérez -> Asesoría en Python, 2 h
+2026-11-16 19:51:40,476 | INFO    | Operación 13 finalizada
+2026-11-16 19:51:40,476 | INFO    | Intento de procesar la reserva #10 (estado final: pendiente)
+2026-11-16 19:51:40,476 | ERROR   | Operación 14 - Procesar reserva sin confirmar (operación no permitida): Solo se procesan reservas confirmadas (estado: pendiente).
+2026-11-16 19:51:40,476 | INFO    | Operación 14 finalizada
+2026-11-16 19:51:40,476 | INFO    | Reserva #10 confirmada para Luis Pérez
+2026-11-16 19:51:40,476 | INFO    | Reserva #10 procesada, total $222,768.00
+2026-11-16 19:51:40,476 | INFO    | Intento de procesar la reserva #10 (estado final: procesada)
+2026-11-16 19:51:40,476 | INFO    | Operación 15 finalizada
+2026-11-16 19:51:40,476 | INFO    | Reserva creada: Reserva #11 [pendiente] Ana Torres -> Portátil Pro, 10 h
+2026-11-16 19:51:40,476 | INFO    | Operación 16 finalizada
+2026-11-16 19:51:40,476 | INFO    | Reserva #11 cancelada
+2026-11-16 19:51:40,476 | INFO    | Operación 17 finalizada
+2026-11-16 19:51:40,476 | ERROR   | Operación 18 - Cancelar de nuevo (debe fallar): No se puede cancelar una reserva cancelada.
+2026-11-16 19:51:40,476 | INFO    | Operación 18 finalizada
+2026-11-16 19:51:40,476 | INFO    | Reserva creada: Reserva #12 [pendiente] Ana Torres -> Asesoría en Python, 1 h
+2026-11-16 19:51:40,476 | INFO    | Reserva #12 confirmada para Ana Torres
+2026-11-16 19:51:40,476 | INFO    | Intento de procesar la reserva #12 (estado final: confirmada)
+2026-11-16 19:51:40,477 | ERROR   | Operación 19 - Procesar con descuento inválido (error encadenado): No se pudo calcular el costo de la reserva #12 (causa: Descuento fuera de rango: 2)
+2026-11-16 19:51:40,477 | INFO    | Operación 19 finalizada
+2026-11-16 19:51:40,477 | ERROR   | Operación 20 - Reserva con cliente nulo (parámetro faltante): La reserva necesita un cliente válido.
+2026-11-16 19:51:40,477 | INFO    | Operación 20 finalizada
+2026-11-16 19:51:49,710 | INFO    | Cliente registrado: Cliente #1: Ana Torres (doc. 1012345678, ana@correo.com)
+2026-11-16 19:51:49,710 | INFO    | Operación 1 finalizada
+2026-11-16 19:51:49,710 | INFO    | Cliente registrado: Cliente #2: Luis Pérez (doc. 79876543, luis@correo.com)
+2026-11-16 19:51:49,710 | INFO    | Operación 2 finalizada
+2026-11-16 19:51:49,711 | ERROR   | Operación 3 - Registrar cliente con correo inválido: Correo inválido: 'correo-malo'
+2026-11-16 19:51:49,711 | INFO    | Operación 3 finalizada
+2026-11-16 19:51:49,711 | ERROR   | Operación 4 - Registrar cliente con documento repetido: Ya existe un cliente con documento 1012345678.
+2026-11-16 19:51:49,711 | INFO    | Operación 4 finalizada
+2026-11-16 19:51:49,711 | INFO    | Servicio creado: Sala Ejecutiva (disponible, $50,000/hora), sala para 10 personas
+2026-11-16 19:51:49,711 | INFO    | Operación 5 finalizada
+2026-11-16 19:51:49,711 | INFO    | Servicio creado: Portátil Pro (disponible, $12,000/hora), alquiler de Portátil con seguro del 5%
+2026-11-16 19:51:49,711 | INFO    | Operación 6 finalizada
+2026-11-16 19:51:49,711 | INFO    | Servicio creado: Asesoría en Python (disponible, $80,000/hora), asesoría en Python
+2026-11-16 19:51:49,711 | INFO    | Operación 7 finalizada
+2026-11-16 19:51:49,712 | ERROR   | Operación 8 - Crear servicio con tarifa inválida: La tarifa por hora debe ser un número positivo.
+2026-11-16 19:51:49,712 | INFO    | Operación 8 finalizada
+2026-11-16 19:51:49,712 | INFO    | Reserva creada: Reserva #9 [pendiente] Ana Torres -> Sala Ejecutiva, 3 h
+2026-11-16 19:51:49,712 | INFO    | Operación 9 finalizada
+2026-11-16 19:51:49,712 | INFO    | Reserva #9 confirmada para Ana Torres
+2026-11-16 19:51:49,712 | INFO    | Reserva #9 procesada, total $178,500.00
+2026-11-16 19:51:49,712 | INFO    | Intento de procesar la reserva #9 (estado final: procesada)
+2026-11-16 19:51:49,712 | INFO    | Operación 10 finalizada
+2026-11-16 19:51:49,712 | ERROR   | Operación 11 - Reserva fallida: horas fuera de rango en la sala: Una sala se reserva entre 1 y 8 horas.
+2026-11-16 19:51:49,712 | INFO    | Operación 11 finalizada
+2026-11-16 19:51:49,712 | ERROR   | Operación 12 - Reserva fallida: equipo no disponible: El servicio 'Portátil Pro' no está disponible.
+2026-11-16 19:51:49,712 | INFO    | Operación 12 finalizada
+2026-11-16 19:51:49,712 | INFO    | Reserva creada: Reserva #10 [pendiente] Luis Pérez -> Asesoría en Python, 2 h
+2026-11-16 19:51:49,712 | INFO    | Operación 13 finalizada
+2026-11-16 19:51:49,712 | INFO    | Intento de procesar la reserva #10 (estado final: pendiente)
+2026-11-16 19:51:49,712 | ERROR   | Operación 14 - Procesar reserva sin confirmar (operación no permitida): Solo se procesan reservas confirmadas (estado: pendiente).
+2026-11-16 19:51:49,712 | INFO    | Operación 14 finalizada
+2026-11-16 19:51:49,712 | INFO    | Reserva #10 confirmada para Luis Pérez
+2026-11-16 19:51:49,712 | INFO    | Reserva #10 procesada, total $222,768.00
+2026-11-16 19:51:49,712 | INFO    | Intento de procesar la reserva #10 (estado final: procesada)
+2026-11-16 19:51:49,713 | INFO    | Operación 15 finalizada
+2026-11-16 19:51:49,713 | INFO    | Reserva creada: Reserva #11 [pendiente] Ana Torres -> Portátil Pro, 10 h
+2026-11-16 19:51:49,713 | INFO    | Operación 16 finalizada
+2026-11-16 19:51:49,713 | INFO    | Reserva #11 cancelada
+2026-11-16 19:51:49,713 | INFO    | Operación 17 finalizada
+2026-11-16 19:51:49,713 | ERROR   | Operación 18 - Cancelar de nuevo (debe fallar): No se puede cancelar una reserva cancelada.
+2026-11-16 19:51:49,713 | INFO    | Operación 18 finalizada
+2026-11-16 19:51:49,713 | INFO    | Reserva creada: Reserva #12 [pendiente] Ana Torres -> Asesoría en Python, 1 h
+2026-11-16 19:51:49,713 | INFO    | Reserva #12 confirmada para Ana Torres
+2026-11-16 19:51:49,713 | INFO    | Intento de procesar la reserva #12 (estado final: confirmada)
+2026-11-16 19:51:49,713 | ERROR   | Operación 19 - Procesar con descuento inválido (error encadenado): No se pudo calcular el costo de la reserva #12 (causa: Descuento fuera de rango: 2)
+2026-11-16 19:51:49,713 | INFO    | Operación 19 finalizada
+2026-11-16 19:51:49,713 | ERROR   | Operación 20 - Reserva con cliente nulo (parámetro faltante): La reserva necesita un cliente válido.
+2026-11-16 19:51:49,713 | INFO    | Operación 20 finalizada
